@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wdth,wght@62.5..100,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color: rgb(46, 44, 44);}
+
+#menu-pr{
+    background-image: linear-gradient( to left, rgb(3, 32, 97),rgb(7, 49, 185),rgb(59, 139, 243) ) ;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    font-family: Noto Sans Mono;
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente os itens do menu */
+    align-items: center; /* Alinha verticalmente os itens do menu */
+      
+    .logo {
+        float: left; /* Alinha a imagem à esquerda */
+        margin-right: 10px; /* Espaço entre a imagem e os itens do menu */
+      }
+    li{
+        display: inline-block;
+        list-style: none;
+    }
+    
+    li a{
+        color: #ffffff;
+        text-decoration: none;
+        padding: 20px;    
+    }
+    
+    li a:hover{
+        box-shadow:0px 0px 10px #000000fa;  
+        border-radius: 20px;
+    }
+}
+
+
+
+.main{
+    
+    box-shadow: 0px 0px 20px white;
+    background-color: white;
+    padding-top: 5%;
+     display: flex;
+  flex-direction: column;
+  align-items: center;
+    
+    
+}
+.titulo{
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-weight: bold;
+    border-radius:  10px;
+    margin-bottom: 100px;
+}
+.bloco{
+    margin: 100px;
+    img {border-radius: 50px;}
+    width: 300px;
+}
+.bloco p{
+    margin-top: 10px;
+    text-align: center;
+    font-family: Noto Sans Mono;
+}
+.blocos{
+    display: flex; /* deixa a movimentacao de container flexivel */
+    justify-content: row; /* coloca os blocos um do lado do outro*/    
+}
+#banner{
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    color: #ffffff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat; /* Evita que a imagem de fundo se repita */
+    background-position: center; /* Isso alinha a imagem ao centro da div */
+    background-size: cover; /* Diminui o tamanho da imagem para caber dentro da div */
+    background-image: url(../IMG/businesswomen-working-checking-equipment-solar-power-plant-with-tablet-checklist-woman-working-outdoor-solar-power.jpg);
+    
+    
+}
+.textos{
+    text-align: center;
+    font-family: Noto Sans Mono;
+    padding: 20px;
+}
+.textos p{
+    margin-bottom: 30px;
+}
+
+.bloquinho p{
+    
+    font-family: Noto Sans Mono;
+    padding: 20px;
+}
+#titulo{
+    text-align: center;
+    font-family:"Josefin Sans";
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+.bloquinho{
+    width: 300px;
+    height: 300px;
+    display:inline-block;
+    margin-bottom: 30px;
+    padding: 100px;
+}    
+#bannerPG2{
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    color: #ffffff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover; 
+    background-image: url(../IMG/3d-solar-pannels-project-energy-saving.jpg);
+}
